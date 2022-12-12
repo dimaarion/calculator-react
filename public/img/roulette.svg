@@ -1,0 +1,20 @@
+<svg width="580" height="400" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with SVG Editor - http://github.com/mzalive/SVG Editor/ -->
+
+ <g>
+  <title>background</title>
+  <rect x="-1" y="-1" width="582" height="402" id="canvas_background" fill="#fff"/>
+  <g id="canvasGrid" display="none">
+   <rect id="svg_1" width="100%" height="100%" x="0" y="0" stroke-width="0" fill="url(#gridpattern)"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <rect id="svg_9" height="23" width="6" y="315.550003" x="540.5" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="#00bf00"/>
+  <rect transform="rotate(-128, 286.5, 188.55)" id="svg_7" height="68" width="70" y="154.550003" x="251.5" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="#00bf00"/>
+  <rect id="svg_6" height="11" width="418.000012" y="315.550013" x="128.500008" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="#00bf00"/>
+  <rect id="svg_8" height="46" width="86" y="281.550003" x="182.5" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="#00bf00"/>
+  <ellipse ry="150" rx="150" id="svg_4" cy="181.049996" cx="153.000007" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="#00bf00"/>
+  <ellipse ry="100" rx="100" id="svg_10" cy="183.550003" cx="151.5" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="#00bf00"/>
+ </g>
+</svg>

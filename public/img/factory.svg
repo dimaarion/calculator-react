@@ -1,0 +1,34 @@
+<svg width="580" height="400" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with SVG Editor - http://github.com/mzalive/SVG Editor/ -->
+ <g>
+  <title>background</title>
+  <rect fill="#fff" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+  <g wfd-invisible="true" display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <rect id="svg_2" height="327.000004" width="207" y="73.550003" x="23.5" stroke-width="1.5" stroke="#fff" fill="#00bf00"/>
+  <rect id="svg_3" height="185" width="340" y="220.550003" x="232.5" stroke-width="1.5" stroke="#fff" fill="#00bf00"/>
+  <rect id="svg_4" height="192" width="48" y="26.550003" x="514.5" stroke-width="1.5" stroke="#fff" fill="#00bf00"/>
+  <rect id="svg_5" height="41" width="40" y="93.550003" x="43" stroke-width="1.5" stroke="#000" fill="#fff"/>
+  <rect id="svg_6" height="41" width="40" y="94" x="105" stroke-width="1.5" stroke="#000" fill="#fff"/>
+  <rect id="svg_7" height="41" width="40" y="94" x="167" stroke-width="1.5" stroke="#000" fill="#fff"/>
+  <rect id="svg_8" height="41" width="40" y="152.550003" x="43" stroke-width="1.5" stroke="#000" fill="#fff"/>
+  <rect id="svg_9" height="41" width="40" y="213.550003" x="43" stroke-width="1.5" stroke="#000" fill="#fff"/>
+  <rect id="svg_10" height="41" width="40" y="274.550003" x="42.5" stroke-width="1.5" stroke="#000" fill="#fff"/>
+  <rect id="svg_11" height="41" width="40" y="153" x="105" stroke-width="1.5" stroke="#000" fill="#fff"/>
+  <rect id="svg_12" height="41" width="40" y="153" x="167" stroke-width="1.5" stroke="#000" fill="#fff"/>
+  <rect id="svg_13" height="41" width="40" y="214" x="104.5" stroke-width="1.5" stroke="#000" fill="#fff"/>
+  <rect id="svg_14" height="41" width="40" y="214" x="166.5" stroke-width="1.5" stroke="#000" fill="#fff"/>
+  <rect id="svg_15" height="41" width="40" y="275" x="104.5" stroke-width="1.5" stroke="#000" fill="#fff"/>
+  <rect id="svg_16" height="41" width="40" y="275" x="166.5" stroke-width="1.5" stroke="#000" fill="#fff"/>
+  <rect id="svg_17" height="53.000015" width="85" y="249.550002" x="259.499998" stroke-width="1.5" stroke="#000" fill="#fff"/>
+  <rect id="svg_18" height="53" width="85" y="249.550003" x="361.499996" stroke-width="1.5" stroke="#000" fill="#fff"/>
+  <rect id="svg_19" height="53" width="88" y="249.550005" x="460.499982" stroke-width="1.5" stroke="#000" fill="#fff"/>
+  <rect id="svg_20" height="12" width="46.000003" y="38.550005" x="515.500001" stroke-width="1.5" stroke="#fff" fill="#000"/>
+  <rect id="svg_21" height="12" width="46.000003" y="64.550005" x="515.500001" stroke-width="1.5" stroke="#fff" fill="#000"/>
+  <rect id="svg_22" height="12" width="46.000003" y="93.550005" x="515.500001" stroke-width="1.5" stroke="#fff" fill="#000"/>
+ </g>
+</svg>

@@ -3,7 +3,7 @@ import Colleft from './colLeft/Colleft';
 import ColRight from './colRight/ColRight';
 import Rezult from './rezult/Rezult';
 import { useSelector } from 'react-redux';
-
+import "./css/style.css"
 
 export default function App(props) {
   const [price, setPrice] = useState(0)
