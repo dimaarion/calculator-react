@@ -18,35 +18,43 @@ function Rezult(props) {
   summa = summa.toFixed(1);
   return (
     <div>
-      <table className="table">
-        <thead>
-          <tr>
-            <th className='text-center' scope="col">Окно</th>
-            <th className='text-center' scope="col">Подоконник</th>
-            <th className='text-center' scope="col">Отлив</th>
-            <th className='text-center' scope="col">Сетка</th>
-            <th className='text-center' scope="col">Демонтаж-монтаж</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td className='text-center'>{price} ye.</td>
-            <td className='text-center'>{grid} ye.</td>
-            <td className='text-center'>{tide} ye.</td>
-            <td className='text-center'>{setka} ye.</td>
-            <td className='text-center'>{dismanting} ye.</td>
-          </tr>
-        </tbody>
-      </table>
+     
+      <div className="container result">
+        <div>
+          <div className='row'>
+            <div className='col-sm'>
+            <div className=' col-sm fw-700'>Окно</div>
+            <div className=' col-sm'>{price} ye.</div>
+            </div>
+            <div className='col-sm'>
+              <div className=' col-sm fw-700'>Подоконник</div>
+              <div className=' col-sm'>{grid} ye.</div>
+            </div>
+            <div className='col-sm'>
+              <div className=' col-sm fw-700'>Отлив</div>
+              <div className=' col-sm'>{tide} ye.</div>
+            </div>
+            <div className='col-sm'>
+              <div className=' col-sm fw-700'>Сетка</div>
+              <div className=' col-sm'>{setka} ye.</div>
+            </div>
+            <div className='col-sm'>
+               <div className=' col-sm fw-700'>Демонтаж-монтаж</div>
+              <div className=' col-sm'>{dismanting} ye.</div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
 
-      <div className="rezultCall fs-2 row text-center ">
+      <div className="rezultCall fs-2 row text-center col-sm ">
         <div className=" mt-3 text-success col-sm">{summa} ye.</div>
         <div className='col-sm'>
-          <button type="button" className="mt-3 btn btn-success" data-type = "calculator" data-name = "Отправить заявку"  data-bs-toggle="modal" data-bs-target="#mainModal">
+          <button type="button" className="mt-3 btn btn-success" data-type="calculator" data-name="Отправить заявку" data-bs-toggle="modal" data-bs-target="#mainModal">
             Отправить заявку
           </button></div>
       </div>
-      
+
     </div>
 
   );

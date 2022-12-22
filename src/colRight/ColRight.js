@@ -6,7 +6,6 @@ export default function ColRight() {
 
   return (
     <div className="col-sm  col-right-call">
-      <IconWind />
       <FormParametr />
     </div>
   );
