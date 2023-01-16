@@ -39,24 +39,24 @@ function WindCenter() {
     }
 
     if (oknoD.rez === 'Одностворчатое окно' && stvorkaD.rez === 'глухое') {
-        img = "/img/winOdGl.png";
+        img = "/storage/img/winOdGl.png";
     } else if (oknoD.rez === 'Одностворчатое окно' && stvorkaD.rez === 'Поворотное') {
-        img = "/img/winOdPov.png";
+        img = "/storage/img/winOdPov.png";
     } else if (oknoD.rez === 'Одностворчатое окно' && stvorkaD.rez === 'Поворотно-откидное') {
-        img = "/img/winOdPovOt.png";
+        img = "/storage/img/winOdPovOt.png";
     }
     if (oknoD.rez === 'Двустворчатое окно' && stvorkaD.rez === 'Поворотное') {
-        img = "/img/winDvPov.png";
+        img = "/storage/img/winDvPov.png";
     } else if (oknoD.rez === 'Двустворчатое окно' && stvorkaD.rez === 'глухое') {
-        img = "/img/winDvPov.png";
+        img = "/storage/img/winDvPov.png";
     }
     else if (oknoD.rez === 'Двустворчатое окно' && stvorkaD.rez === 'Поворотно-откидное') {
-        img = "/img/winDvPovOt.png";
+        img = "/storage/img/winDvPovOt.png";
     }
     if (oknoD.rez === 'Трехстворчатое окно' && stvorkaD.rez === 'Поворотное') {
-        img = "/img/winTrPov.png";
+        img = "/storage/img/winTrPov.png";
     } else if (oknoD.rez === 'Трехстворчатое окно' && stvorkaD.rez === 'Поворотно-откидное') {
-        img = "/img/winTrPovOt.png";
+        img = "/storage/img/winTrPovOt.png";
     }
 
 
@@ -75,7 +75,7 @@ function WindCenter() {
                     <input onChange={(e) => heightD({ type: "HEIGHT", payload: e.target.value })} type="range" min={hmin} max={hmax}
                         className="form-range num-right-input" />
                 </div>
-                <div className='position-absolute top-100 start-50 translate-middle'>
+                <div className='position-absolute top-100 start-50 translate-middle range-field'>
                     <input onChange={(e) => widthD({ type: "WIDTH", payload: e.target.value })} type="range" min={wmin} max={wmax} 
                     className="form-range num-bottom-input" />
                 </div>

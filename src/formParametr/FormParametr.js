@@ -56,7 +56,7 @@ function FormParametr(props) {
                 <div className='col-sm'>
                     <label htmlFor="prof">Профиль</label>
                     <select id="prof" onChange={(e) => { setProfile(e.target.value); profiles({ type: "PROFILE", payload: e.target.value }) }} className="select-right-prof form-control custom-select">
-                        <option value="Россия, Турция" className="optionProfA">Россия, Турция</option>
+                        <option value="Россия, Турция" className="optionProfA">Украина, Болгария </option>
                         <option value="3-камерный" className="optionProfB">3-камерный</option>
                         <option value="5-камерный" className="optionProfC">5-камерный</option>
                     </select>

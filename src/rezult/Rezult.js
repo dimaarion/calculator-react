@@ -14,17 +14,19 @@ function Rezult(props) {
   let setka = Number(props.setka);
   let dismanting = Number(props.dismanting);
 
+  price = price + (price / 100 * 10);
+
   let summa = price + grid + tide + setka + dismanting;
   summa = summa.toFixed(1);
   return (
     <div>
-     
+
       <div className="container result">
         <div>
           <div className='row'>
             <div className='col-sm'>
-            <div className=' col-sm fw-700'>Окно</div>
-            <div className=' col-sm'>{price} ye.</div>
+              <div className=' col-sm fw-700'>Окно</div>
+              <div className=' col-sm'>{price.toFixed(1)} ye.</div>
             </div>
             <div className='col-sm'>
               <div className=' col-sm fw-700'>Подоконник</div>
@@ -39,10 +41,10 @@ function Rezult(props) {
               <div className=' col-sm'>{setka} ye.</div>
             </div>
             <div className='col-sm'>
-               <div className=' col-sm fw-700'>Демонтаж-монтаж</div>
+              <div className=' col-sm fw-700'>Демонтаж-монтаж</div>
               <div className=' col-sm'>{dismanting} ye.</div>
             </div>
-            
+
           </div>
         </div>
       </div>
