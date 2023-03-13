@@ -202,10 +202,10 @@ const windowHeight = (state = { rez: 1000 }, action) => {
     }
 }
 
-const profile = (state = { rez: 'Россия, Турция' }, action) => {
+const profile = (state = { rez: 'Россия, Турция', options:0 }, action) => {
     switch (action.type) {
         case 'PROFILE':
-            return state = { ...state, rez: action.payload }
+            return state = { ...state, rez: action.payload,options:action.options }
         default:
             return { ...state }
     }

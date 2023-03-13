@@ -48,17 +48,19 @@ function FormParametr(props) {
                 <div className='col-sm'>
                     <label htmlFor="types">Тип окна</label>
                     <select id="types" onChange={(e) => { setOkno(e.target.value); oknoD({ type: "OKNO", payload: e.target.value }) }} className="select-right-prof form-control custom-select">
-                        <option value="Одностворчатое окно" className="optionProfA">Одностворчатое окно</option>
+                        <option value="Одностворчатое окно"  className="optionProfA">Одностворчатое окно</option>
                         <option value="Двустворчатое окно" className="optionProfB">Двустворчатое окно</option>
                         <option value="Трехстворчатое окно" className="optionProfC">Трехстворчатое окно</option>
                     </select>
                 </div>
                 <div className='col-sm'>
                     <label htmlFor="prof">Профиль</label>
-                    <select id="prof" onChange={(e) => { setProfile(e.target.value); profiles({ type: "PROFILE", payload: e.target.value }) }} className="select-right-prof form-control custom-select">
-                        <option value="Россия, Турция" className="optionProfA">Украина, Болгария </option>
-                        <option value="3-камерный" className="optionProfB">3-камерный</option>
-                        <option value="5-камерный" className="optionProfC">5-камерный</option>
+                    <select id="prof" onChange={(e) => { setProfile(e.target.value);  }} className="select-right-prof form-control custom-select">
+                        <option value="Россия, Турция" onClick={(e)=>profiles({ type: "PROFILE", payload: e.target.value,options:e.target.id})} id = {0} className="optionProfA">Украина, Болгария 3-к 60 мм. </option>
+                        <option value="3-камерный" onClick={(e)=>profiles({ type: "PROFILE", payload: e.target.value,options:e.target.id})} id = {1} className="optionProfBA">Украина, Болгария 5-к 70 мм. </option>
+                        <option value="3-камерный" onClick={(e)=>profiles({ type: "PROFILE", payload: e.target.value,options:e.target.id})} id = {2} className="optionProfBB">Brugmann 5-к 73 mm.</option>
+                        <option value="5-камерный" onClick={(e)=>profiles({ type: "PROFILE", payload: e.target.value,options:e.target.id})} id = {3} className="optionProfC">Streamline 5-к 76 mm.</option>
+                        <option value="5-камерный" onClick={(e)=>profiles({ type: "PROFILE", payload: e.target.value,options:e.target.id})} id = {4} className="optionProfCA">bluEvolution 6-к 92 mm.</option>
                     </select>
                 </div>
                 <div className='col-sm'>

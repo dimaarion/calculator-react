@@ -30,7 +30,7 @@ function WindCenter() {
         hmax = '1700';
 
     } else if (oknoD.rez === 'Трехстворчатое окно') {
-        img = "/img/winTrPov.png";
+        img = "/storage/img/winTrPov.png";
         w = 300
         wmin = '1600';
         wmax = '2300';

@@ -21,13 +21,13 @@ function IconWind() {
                 <tbody>
                     <tr className="tr-right">
                         <td className="td-right-1 text-center" style={bgcolor1}>
-                            <img  src="/img/winOdGl.png" id="img-gl" className="img-right" style={{ cursor: 'pointer' }} alt = 'Одностворчатое окно'/>
+                            <img  src="/storage/img/winOdGl.png" id="img-gl" className="img-right" style={{ cursor: 'pointer' }} alt = 'Одностворчатое окно'/>
                         </td>
                         <td className="td-right-2 text-center" style={bgcolor2}>
-                            <img  src="/img/winDvPov.png" id="img-dv" className="img-right" style={{ cursor: 'pointer' }} alt = 'Двустворчатое окно'/>
+                            <img  src="/storage/img/winDvPov.png" id="img-dv" className="img-right" style={{ cursor: 'pointer' }} alt = 'Двустворчатое окно'/>
                         </td>
                         <td className="td-right-3 text-center" style={bgcolor3}>
-                            <img src="/img/winTrPov.png" id="img-tr" className="img-right" style={{ cursor: 'pointer' }} alt = 'Трехстворчатое окно'/>
+                            <img src="/storage/img/winTrPov.png" id="img-tr" className="img-right" style={{ cursor: 'pointer' }} alt = 'Трехстворчатое окно'/>
                         </td>
                     </tr>
                 </tbody>

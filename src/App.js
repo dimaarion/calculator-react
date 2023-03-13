@@ -13,7 +13,7 @@ export default function App(props) {
   let tideRez = useSelector((state)=>state.tideRez);
   let setka = useSelector((state)=>state.setka);
   let dismanting = useSelector((state)=>state.dismanting);
-
+  
 
  useEffect(()=>{
   pr.map((x)=>setPrice(x.znacenie))
